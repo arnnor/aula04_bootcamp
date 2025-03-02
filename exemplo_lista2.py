@@ -1,3 +1,5 @@
+import json
+
 lista: list = ["Sapato", 39, 10.38, True]
 
 produto_01: dict = {
@@ -18,5 +20,6 @@ carrinho: list = []
 
 carrinho.append(produto_01)
 carrinho.append(produto_02)
+carrinho_json = json.dumps(carrinho)
 
-print(carrinho)
+print(carrinho_json)
