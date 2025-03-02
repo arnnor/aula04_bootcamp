@@ -16,3 +16,7 @@ produto_02: dict = {
 
 carrinho: list = []
 
+carrinho.append(produto_01)
+carrinho.append(produto_02)
+
+print(carrinho)
